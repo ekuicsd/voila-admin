@@ -36,9 +36,7 @@
               "./node_modules/mdbootstrap/js/jquery.js",
               "./node_modules/mdbootstrap/js/bootstrap.js",
               "./node_modules/mdbootstrap/js/mdb.js",
-              "./node_modules/mdbootstrap/js/popper.min.js",
-              "./node_modules/chart.js/dist/Chart.js",
-              "./node_modules/hammerjs/hammer.min.js"
+              "./node_modules/mdbootstrap/js/popper.min.js"
             ]
           },
           "configurations": {
@@ -106,9 +104,7 @@
               "./node_modules/mdbootstrap/js/jquery.js",
               "./node_modules/mdbootstrap/js/bootstrap.js",
               "./node_modules/mdbootstrap/js/mdb.js",
-              "./node_modules/mdbootstrap/js/popper.min.js",
-              "./node_modules/chart.js/dist/Chart.js",
-              "./node_modules/hammerjs/hammer.min.js"
+              "./node_modules/mdbootstrap/js/popper.min.js"
             ]
           }
         },
