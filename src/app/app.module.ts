@@ -20,8 +20,18 @@ import { GuideModule } from './guide/guide.module';
 import { PersonalTourModule } from './personal-tour/personal-tour.module';
 import { TouristsModule } from './tourists/tourists.module';
 import { VerifyGuideModule } from './verify-guide/verify-guide.module';
+import {MatSidenavModule,MatButtonModule,MatToolbarModule,MatButtonToggleModule, } from '@angular/material';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {FormsModule} from '@angular/forms'
+import {MatIconModule} from '@angular/material/icon';
 
 
+const material = [
+  MatSidenavModule,
+  MatButtonModule,
+  MatToolbarModule,
+  MatButtonToggleModule
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,8 +53,13 @@ import { VerifyGuideModule } from './verify-guide/verify-guide.module';
     DealsModule,
     GuideModule,
     PersonalTourModule,
+    MatSidenavModule,
+    MatButtonModule,MatToolbarModule,MatButtonToggleModule,
     TouristsModule,
-    VerifyGuideModule
+    VerifyGuideModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    MatIconModule
 
   ],
   providers: [

@@ -1,1 +1,120 @@
-<p>header works!</p>
+<mat-sidenav-container>
+  <mat-sidenav  [(opened)]="opened">
+    <div class="sidecont">
+        <br>
+         <h1><b>voila</b> </h1>
+         <hr>
+         <div class="maticons">
+             <mat-icon aria-hidden="false" aria-label="Example home icon">face</mat-icon>
+         <mat-icon aria-hidden="false" aria-label="Example home icon">fingerprint</mat-icon>
+         <mat-icon aria-hidden="false" aria-label="Example home icon">duo</mat-icon>
+         <mat-icon aria-hidden="false" aria-label="Example home icon">g_translate</mat-icon>
+         </div>
+         <hr>
+         <p style="font-size: 15px;" >All &copy;copyrights reserved</p>
+         <hr>
+         <div class="btn-group" style="width: 100%;" mdbDropdown>
+            <a mdbDropdownToggle type="button"  mdbBtn class="dropdown-toggle waves-light"
+              mdbWavesEffect>
+              Basic dropdown
+            </a>
+          
+            <div class="dropdown-menu dropdown-primary">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="divider dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="btn-group" style="width: 100%;" mdbDropdown>
+            <a mdbDropdownToggle type="button"  mdbBtn class="dropdown-toggle waves-light"
+              mdbWavesEffect>
+              Basic dropdown
+            </a>
+          
+            <div class="dropdown-menu dropdown-primary">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="divider dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="btn-group" style="width: 100%;" mdbDropdown>
+            <a mdbDropdownToggle type="button"  mdbBtn class="dropdown-toggle waves-light"
+              mdbWavesEffect>
+              Basic dropdown
+            </a>
+          
+            <div class="dropdown-menu dropdown-primary">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="divider dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </div>
+          <br><br>
+    </div>
+    
+  
+  
+  
+  </mat-sidenav>
+  <mat-sidenav-content>
+    
+   <!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+
+  <!-- Navbar brand -->
+  <mdb-navbar-brand><a (click)="opened=!opened" class="navbar-brand" style="color: white;">Navbar</a></mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbWavesEffect>Features</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbWavesEffect>Pricing</a>
+          </li>
+
+          <!-- Dropdown -->
+          <li class="nav-item dropdown" dropdown>
+              <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              Basic dropdown<span class="caret"></span></a>
+              <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
+                  <div class="divider dropdown-divider"></div>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+              </div>
+          </li>
+
+      </ul>
+      <!-- Links -->
+
+<!-- Search form -->
+      <form class="form-inline waves-light" mdbWavesEffect>
+          <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          </div>
+      </form>
+  </links>
+  <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
+</mat-sidenav-content>
+</mat-sidenav-container>
