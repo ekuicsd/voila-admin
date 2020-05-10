@@ -24,6 +24,7 @@ import {MatSidenavModule,MatButtonModule,MatToolbarModule,MatButtonToggleModule,
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule} from '@angular/forms'
 import {MatIconModule} from '@angular/material/icon';
+import { SidenavbarComponent } from './layouts/sidenavbar/sidenavbar.component';
 
 
 const material = [
@@ -40,6 +41,7 @@ const material = [
     HeaderComponent,
     FooterComponent,
     FullComponentComponent,
+    SidenavbarComponent,
   ],
   imports: [
     BrowserModule,
