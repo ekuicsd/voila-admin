@@ -1,1 +1,86 @@
-<p>header works!</p>
+<!-- <mat-sidenav-container>
+  <mat-sidenav  [(opened)]="opened">
+    <div class="sidecont">
+        <br>
+         <h1><b>voila</b> </h1>
+         <hr>
+         <div class="maticons">
+             <mat-icon aria-hidden="false" aria-label="Example home icon">face</mat-icon>
+         <mat-icon aria-hidden="false" aria-label="Example home icon">fingerprint</mat-icon>
+         <mat-icon aria-hidden="false" aria-label="Example home icon">duo</mat-icon>
+         <mat-icon aria-hidden="false" aria-label="Example home icon">g_translate</mat-icon>
+         </div>
+         <hr>
+         <p style="font-size: 15px;" >All &copy;copyrights reserved</p>
+         <hr>
+          
+         <ul>
+           <li>
+             <a [routerLink]="['/dashboard']" routerLinkActive="router-link-active">Dashboard</a>
+           </li>
+           <li>
+            <a [routerLink]="['/verify']" routerLinkActive="router-link-active">Verify Guide</a>
+          </li>
+          <li>
+            <a [routerLink]="['/guides']" routerLinkActive="router-link-active">Guides</a>
+          </li>
+          <li>
+            <a [routerLink]="['/tourists']" routerLinkActive="router-link-active">Tourists</a>
+          </li>
+          <li>
+            <a [routerLink]="['/deals']" routerLinkActive="router-link-active">Deals</a>
+          </li>
+          <li>
+            <a [routerLink]="['/tours']" routerLinkActive="router-link-active">Tours</a>
+          </li>
+         </ul>
+
+    </div>
+    
+  
+  
+  
+  </mat-sidenav>
+  <mat-sidenav-content> -->
+    
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark indigo">
+
+  <mdb-navbar-brand><a (click)="opened=!opened" class="navbar-brand" style="color: white;">Navbar</a></mdb-navbar-brand>
+
+  <links>
+
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link waves-light" mdbWavesEffect>Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbWavesEffect>Features</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-light" mdbWavesEffect>Pricing</a>
+          </li>
+
+          <li class="nav-item dropdown" dropdown>
+              <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+              Basic dropdown<span class="caret"></span></a>
+              <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Action</a>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Another action</a>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Something else here</a>
+                  <div class="divider dropdown-divider"></div>
+                  <a class="dropdown-item waves-light" mdbWavesEffect href="#">Separated link</a>
+              </div>
+          </li>
+
+      </ul>
+
+      <form class="form-inline waves-light" mdbWavesEffect>
+          <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          </div>
+      </form>
+  </links>
+
+</mdb-navbar>
+<!-- </mat-sidenav-content>
+</mat-sidenav-container> -->
