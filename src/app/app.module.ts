@@ -20,7 +20,8 @@ import { GuideModule } from './guide/guide.module';
 import { PersonalTourModule } from './personal-tour/personal-tour.module';
 import { TouristsModule } from './tourists/tourists.module';
 import { VerifyGuideModule } from './verify-guide/verify-guide.module';
-
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -44,8 +45,10 @@ import { VerifyGuideModule } from './verify-guide/verify-guide.module';
     GuideModule,
     PersonalTourModule,
     TouristsModule,
-    VerifyGuideModule
-
+    VerifyGuideModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [
     {
