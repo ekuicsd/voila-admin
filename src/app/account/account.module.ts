@@ -6,8 +6,6 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { Routes, RouterModule } from '@angular/router';
 
-<<<<<<< HEAD
-=======
 const routes: Routes = [
     {
         path: 'login', component:LoginPageComponent
@@ -19,7 +17,6 @@ const routes: Routes = [
         path: 'forgot-password', component: ForgotPasswordComponent
     }
 ]
->>>>>>> bbdf8aaef005be41e75933f1082d94d2e9d62f65
 @NgModule({
     declarations: [
         LoginPageComponent,
@@ -28,15 +25,7 @@ const routes: Routes = [
     ],
     imports: [
         CommonModule,
-<<<<<<< HEAD
-        MDBBootstrapModule
-    ],
-    exports:[
-LoginPageComponent
-
-=======
         RouterModule.forChild(routes)
->>>>>>> bbdf8aaef005be41e75933f1082d94d2e9d62f65
     ]
 })
 export class AccountModule { }

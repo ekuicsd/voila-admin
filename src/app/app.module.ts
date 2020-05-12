@@ -20,17 +20,12 @@ import { GuideModule } from './guide/guide.module';
 import { PersonalTourModule } from './personal-tour/personal-tour.module';
 import { TouristsModule } from './tourists/tourists.module';
 import { VerifyGuideModule } from './verify-guide/verify-guide.module';
-<<<<<<< HEAD
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-=======
 import {MatSidenavModule,MatButtonModule,MatToolbarModule,MatButtonToggleModule, } from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {FormsModule} from '@angular/forms'
 import {MatIconModule} from '@angular/material/icon';
 import { SidenavbarComponent } from './layouts/sidenavbar/sidenavbar.component';
 
->>>>>>> bbdf8aaef005be41e75933f1082d94d2e9d62f65
 
 const material = [
   MatSidenavModule,
@@ -65,14 +60,9 @@ const material = [
     TouristsModule,
     VerifyGuideModule,
     BrowserAnimationsModule,
-<<<<<<< HEAD
-    ReactiveFormsModule,
-    FormsModule
-=======
     FormsModule,
     MatIconModule
 
->>>>>>> bbdf8aaef005be41e75933f1082d94d2e9d62f65
   ],
   providers: [
     {
