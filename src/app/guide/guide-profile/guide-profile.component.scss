@@ -1,0 +1,31 @@
+.pro-bg {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(31, 110, 86);
+}
+
+.img-fav {
+    position: relative;
+}
+
+.img-fav .main-img {
+    display: block;
+}
+
+.img-fav .fa-heart {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.img-fav .card-img {
+    position: absolute;
+    bottom: -17px;
+    left: 15px;
+}
+
+.img-fav .badge {
+    position: absolute;
+    bottom: -2px;
+    left: 70px;
+}

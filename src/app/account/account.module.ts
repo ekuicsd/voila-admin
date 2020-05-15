@@ -5,7 +5,6 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { Routes, RouterModule } from '@angular/router';
-
 const routes: Routes = [
     {
         path: 'login', component:LoginPageComponent
@@ -25,7 +24,8 @@ const routes: Routes = [
     ],
     imports: [
         CommonModule,
-        RouterModule.forChild(routes)
+        RouterModule.forChild(routes),
+        MDBBootstrapModule.forRoot()
     ]
 })
 export class AccountModule { }

@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { GuideListComponent } from './guide-list/guide-list.component';
 import { RouterModule, Routes } from '@angular/router';
 import { GuideProfileComponent } from './guide-profile/guide-profile.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 const routes : Routes = [
     {
@@ -20,7 +21,8 @@ const routes : Routes = [
     ],
     imports: [
         CommonModule,
-        RouterModule.forChild(routes)
+        RouterModule.forChild(routes),
+        MDBBootstrapModule.forRoot()
     ]
 })
 export class GuideModule { }
