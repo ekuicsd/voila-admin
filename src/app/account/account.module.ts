@@ -5,6 +5,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
 import { Routes, RouterModule } from '@angular/router';
+import { IconsModule } from 'angular-bootstrap-md';
 const routes: Routes = [
     {
         path: 'login', component:LoginPageComponent
@@ -24,6 +25,7 @@ const routes: Routes = [
     ],
     imports: [
         CommonModule,
+        IconsModule,
         RouterModule.forChild(routes),
         MDBBootstrapModule.forRoot()
     ]
