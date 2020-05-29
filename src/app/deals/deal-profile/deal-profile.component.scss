@@ -1,5 +1,9 @@
 .pro-bg {
-    height: 470px;
+    height: auto;
     width: 100%;
     background-color: black;
+}
+.pro-bg .col-7 {
+  background-image: url("https://cdn.theculturetrip.com/wp-content/uploads/2018/03/jaswant-thada.jpg");
+  background-size: cover;
 }
